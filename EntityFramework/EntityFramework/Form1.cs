@@ -75,5 +75,11 @@ namespace EntityFramework
             textBox1.Tag = row.Cells["id"].Value;
 
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            DataClassesDataContext ctx = new DataClassesDataContext();
+            dataGridView1.DataSource = ctx.Categories.Where(x => x.CategoryName.Contains(textBox1.Text));
+        }
     }
 }
