@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExpressions", "LinqExpressions\LinqExpressions.csproj", "{155A88B9-A8D4-454B-ACBF-548539E42989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.WinFormUI", "RepositoryPattern.WinFormUI\RepositoryPattern.WinFormUI.csproj", "{6F78D46A-8E10-47A1-92AD-C0EE7220DD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.ORM", "RepositoryPattern.ORM\RepositoryPattern.ORM.csproj", "{40BCE872-7C49-48E8-8C57-11639500C47E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{155A88B9-A8D4-454B-ACBF-548539E42989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{155A88B9-A8D4-454B-ACBF-548539E42989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{155A88B9-A8D4-454B-ACBF-548539E42989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F78D46A-8E10-47A1-92AD-C0EE7220DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F78D46A-8E10-47A1-92AD-C0EE7220DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F78D46A-8E10-47A1-92AD-C0EE7220DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F78D46A-8E10-47A1-92AD-C0EE7220DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BCE872-7C49-48E8-8C57-11639500C47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BCE872-7C49-48E8-8C57-11639500C47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BCE872-7C49-48E8-8C57-11639500C47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BCE872-7C49-48E8-8C57-11639500C47E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
