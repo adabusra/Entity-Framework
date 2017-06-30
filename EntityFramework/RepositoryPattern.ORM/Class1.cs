@@ -8,5 +8,6 @@ namespace RepositoryPattern.ORM
 {
     public class Class1
     {
+
     }
 }
