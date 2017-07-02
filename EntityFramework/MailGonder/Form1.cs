@@ -33,7 +33,7 @@ namespace MailGonder
             smtp.EnableSsl = true;
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new NetworkCredential(mail.From.Address, "ADA.7562");
+            smtp.Credentials = new NetworkCredential(mail.From.Address, "****");
             smtp.Host = "smtp.gmail.com";
 
             //recipient
